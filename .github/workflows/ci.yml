@@ -38,4 +38,4 @@ jobs:
 
       - name: Test Docker image
         run: |
-          docker run --rm flask-api:latest curl --fail http://localhost:5000/api
+          docker run --rm flask-api:latest curl --fail http://localhost:5000
